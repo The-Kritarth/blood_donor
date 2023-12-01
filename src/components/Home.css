@@ -1,0 +1,69 @@
+.parentSignup{
+  display:flex;
+  margin-left: 10%;
+}
+.gridSignup{
+  margin-top: 5%;
+  margin-left: 12%;
+}
+.parent{
+  margin-left: 10%;
+  margin-top: 8%;
+  display: flex;
+}
+.grid{
+  height:30%;
+  width:20%;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+.inp{
+  border-radius: 3%;
+  display: flex;
+  width: 100%;
+}
+label {
+  background-color: #f58181;
+  height: 50px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+  padding-top: .7rem;
+}
+
+input[type='password'],
+input[type='email'],
+input[type='text'],
+select{
+  /* background-color: #f4aeae; */
+  color:#606468;
+  height: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: none;
+}
+
+
+input[type='submit'] {
+  background-color: #f39999;
+  width: 100%;
+  color:#606468;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* border-radius: 3%; */
+  border: none;
+}
+
+input[type='submit']:focus,
+input[type='submit']:hover {
+  background-color: #f58181;
+} 
+
+
+
+
+
+  
